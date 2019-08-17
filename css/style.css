@@ -1,0 +1,261 @@
+
+@font-face {
+
+  font-family: 'myPacifico' ;
+  src: url('brown-regular.ttf') format('truetype');
+
+}
+
+
+body {
+  background-color: #FFFFF0;
+  font-family: 'myPacifico';
+}
+
+.background {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 720px;
+  background-size: cover;
+  background-image: url("../img/aglogoanimation.gif");
+  background-repeat: no-repeat;
+  background-position: center; 
+}
+
+body header div nav.navbar.navAlign#myNavbar{
+  position: fixed;
+  z-index: 10;
+  width: 100%;
+  background: #383838;
+  opacity: 0;
+}
+.second{
+  background: rgb(32, 32, 32);
+  position: fixed;
+  width: 100%;
+  z-index: 10;
+  height: 6em;
+  left: 0;
+  top: 0;
+}
+.second img{
+  width: 7em;
+}
+.card{
+  color: #000;
+  transition: transform .5s;
+}
+.card-deck{
+  width: 90%;
+  margin: auto;
+}
+.card:hover{
+  transition: .9s ease;
+  opacity: 0.5;
+  transform: scale(1.1);
+
+}
+.navbar-brand {
+  color: white;
+  margin-left: auto;
+  margin-right: auto;
+  position: fixed;
+}
+
+.navAlign {
+  display: block;
+  margin: 0 auto;
+}
+
+.nav-link {
+  color: white;
+}
+img{
+  width:100%;
+  height:100%;
+}
+
+.nav-pills {
+  margin:15px 5px;
+}
+.nav-pills .nav-item{
+  margin-left:8px;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+    color: #fff;
+    background:none;
+    
+}
+.nav-pills .nav-link:hover{
+  background-color: #D5B610;
+    color: #fff;
+}
+ 
+
+.logo{
+  width: 4em;
+  height: 4em;
+}
+
+
+
+.btn {
+  margin: 0.5em;
+}
+
+
+.aboutText {
+  background-color:  #333333;
+  color: white;
+}
+
+
+.btn {
+  background-color: #D5B610;
+}
+
+.btn:hover {
+  background-color: rgb(252, 214, 0);
+}
+
+.alignText {
+  text-align: center;
+  margin: 2em 0;
+  padding: 0 1em;
+  color: #D5B610;
+}
+
+.bioText {
+  text-align: center;
+  margin-top: 0.3em;
+  color: white;
+}
+
+
+
+.bioWrap {
+  padding: 1em;
+}
+
+.portfolio {
+  background-color: #202020;
+  color: white;
+  padding: 4em;
+}
+
+.portfolioHeader {
+  text-align: center;
+  margin: 1em;
+}
+
+.styleListing {
+  background-color: #202020;
+  color: white;
+  padding: 5em;
+
+}
+
+
+.servicesBack {
+  background-color: #D5B610;
+  text-align: center;
+  padding: 5em;
+  justify-content: center;
+  align-items: center;
+  display: flex;  
+}
+
+.adobelogo{
+  background-color:#ffff;
+}
+
+.img-wrap {
+  background-color: black;
+}
+
+.contactMe {
+  text-align: center;
+  background-color: #333333;
+  color: white; 
+  padding: 1em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* .contactWrap {
+  margin: 2em;
+} */
+
+.contactWrapper {
+  margin: 10em;
+  margin-bottom: 5em;
+}
+
+footer {
+  background-color: #202020;
+  color: white;
+}
+
+.logoLinked {
+  padding: 1em;
+  margin: 1em;
+}
+
+.logoBehance {
+  padding: 1em;
+  margin: 1em;
+  
+}
+
+.footerContent {
+  font-size: 1em;
+  text-align: center;
+  padding: 2em;
+}
+
+
+
+.logo {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  margin: auto;
+  height: auto;
+  width: 15em; 
+}
+#aboutMe .row .col-md-5{
+  background-color:#000;
+}
+
+@media screen and (min-width: 700px){
+
+}
+
+@media screen and (min-width: 1200px) {
+  /* header {
+    margin-top: 6.5em;
+  } */
+
+
+} 
+@media only screen and (max-width: 600px) and (min-width: 300px)  {
+   .nav-link{
+     font-size:11px;
+     padding:5px;
+   }
+      /* For portrait layouts only */
+}
+
+.background2 {
+/* top: 4.5em; */
+}
+
+.imggg {
+  /* padding: 2em; */
+  /* top: 2em; */
+}
